@@ -3,20 +3,19 @@ body {
     padding: 0;
     font-family: sans-serif;
 }
-
 .header-web {
     background: url('https://cdn.pixabay.com/photo/2015/11/26/22/28/girl-1064664_960_720.jpg');
     background-size: cover;
     background-position: center -200px;
     height: 50vh;
 }
-
 .cover {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0,0,0,0.5);
     height: 50vh;
 }
-
-nav {}
+nav {
+    
+}
 
 ul {
     margin: 0;
@@ -25,17 +24,15 @@ ul {
     justify-content: flex-end;
     margin-right: 40px;
 }
-
 ul li {
     padding: 10px;
     text-transform: uppercase;
     margin-top: 20px;
 
 }
-
 ul li a {
     text-decoration: none;
-    color: #fff;
+    color:#fff;
     font-weight: 300;
 }
 
@@ -45,7 +42,7 @@ ul li a:hover {
 }
 
 .box-header {
-    color: #fff;
+    color:#fff;
     font-size: 30px;
     font-family: cursive;
     margin-left: 100px;
@@ -54,9 +51,9 @@ ul li a:hover {
 .box-header button {
     width: 200px;
     padding: 15px;
-    border: none;
-    background: rgba(85, 207, 15, 0.9);
-    color: #fff;
+    border:none;
+    background:rgba(37, 233, 19, 0.9);
+    color:#fff;
     font-size: 15px;
     text-transform: uppercase;
     border-radius: 40px;
@@ -71,14 +68,13 @@ ul li a:hover {
     width: 90%;
     margin: auto;
     margin-bottom: 20px;
-
+    
 }
 
 .serve {
     grid-column: 1 / 3;
     text-align: center;
 }
-
 .serve-one {
     background: url('https://cdn.pixabay.com/photo/2018/01/15/07/51/woman-3083378_960_720.jpg');
     background-size: cover;
@@ -88,7 +84,6 @@ ul li a:hover {
     align-items: flex-start;
     flex-direction: column;
 }
-
 .serve-two {
     background: url('https://cdn.pixabay.com/photo/2016/11/22/06/32/girl-1848478_960_720.jpg');
     background-size: cover;
@@ -97,7 +92,6 @@ ul li a:hover {
     align-items: flex-start;
     flex-direction: column;
 }
-
 .serve-three {
     background: url('https://cdn.pixabay.com/photo/2016/11/08/05/25/steak-1807532_960_720.jpg');
     background-size: cover;
@@ -107,7 +101,6 @@ ul li a:hover {
     flex-direction: column;
     height: 40vh;
 }
-
 .serve-four {
     background: url('https://cdn.pixabay.com/photo/2018/02/07/12/01/restaurant-3136935_960_720.jpg');
     background-size: cover;
@@ -116,7 +109,6 @@ ul li a:hover {
     align-items: flex-end;
     flex-direction: column;
 }
-
 .br5 {
     border-radius: 5px;
 }
@@ -139,7 +131,6 @@ ul li a:hover {
     align-items: flex-end;
     flex-direction: column;
 }
-
 .btn {
     width: 200px;
     padding: 16px;
@@ -148,24 +139,21 @@ ul li a:hover {
     font-size: 14px;
     outline: none;
     cursor: pointer;
-    border: none;
+    border:none;
     color: #fff;
 }
-
 .btn-raduis-left {
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
 }
-
 .btn-raduis-right {
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
 }
-
 .show {
     width: 50%;
-    background: rgba(0, 0, 0, 0.3);
-    color: #fff;
+    background: rgba(0,0,0,0.3);
+    color:#fff;
     margin-top: 20px;
     padding: 10px;
     border-radius: 5px;
@@ -175,7 +163,6 @@ iframe {
     width: 100%;
     height: 60vh;
 }
-
 /* footer */
 footer {
     background: #000;
@@ -185,14 +172,13 @@ footer {
 }
 
 @media(max-width: 768px) {
-
-    .serve,
-    .serve-one,
-    .serve-two,
-    .serve-three,
-    .serve-four,
-    .box-left,
-    .box-right {
-        grid-column: 1/3;
-    }
+   .serve,
+   .serve-one,
+   .serve-two,
+   .serve-three,
+   .serve-four,
+   .box-left,
+   .box-right {
+       grid-column: 1/3;
+   }
 }
